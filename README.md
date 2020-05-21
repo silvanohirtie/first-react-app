@@ -1,4 +1,8 @@
-<div>
+<h2 className="text-2xl">Basic react application with all the function a webApp should have
+<br />Routing
+<br />Api Fetch
+<br />Correct usage of components
+<br />Mobile Friendly</h2>
 <ul className="list-disc">
 <h1 className="text-4xl font-bold">Front-End</h1>
 <li className="text-3xl">React</li>
@@ -15,9 +19,4 @@
 <h1 className="text-4xl font-bold">Tools</h1>
 <li className="text-3xl">PostCSS</li>
 </ul>
-<h2 className="text-2xl">Basic react application with all the function a webApp should have
-<br />Routing
-<br />Api Fetch
-<br />Correct usage of components
-<br />Mobile Friendly</h2>
-</div>
+
