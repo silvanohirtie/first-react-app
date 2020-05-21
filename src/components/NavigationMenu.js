@@ -1,0 +1,38 @@
+import React from 'react'
+import { Link } from "react-router-dom"
+
+export default function NavigationMenu(props) {
+    return (
+        <div>
+             <div className="font-bold text-3xl py-3">
+                    <ul>
+                        <li>
+                            <Link 
+                                to="/" 
+                                className="text-blue-500 py-3 border-b block"
+                                onClick={props.closeMenu}
+                            >
+                            Home
+                            </Link>
+                        </li>
+                        <li>
+                            <Link 
+                                to="/about" 
+                                className="text-blue-500 py-3 border-b block"
+                                onClick={props.closeMenu}
+                            >
+                            About
+                            </Link>
+                            <Link 
+                                to="/products/6" 
+                                className="text-blue-500 py-3 border-b block"
+                                onClick={props.closeMenu}
+                            >
+                            Product Page (API)
+                            </Link>
+                        </li>
+                     </ul>
+                </div>
+        </div>
+    )
+}
